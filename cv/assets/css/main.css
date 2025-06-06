@@ -197,6 +197,10 @@ input, select, textarea {
 	p {
 		margin: 0 0 2rem 0;
 	}
+	p.sideP{color: #000;}
+	h3.sideP{color: #000;}
+	span.sideP{color: #000}
+	a.sideP{color: #000}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000000;
@@ -230,7 +234,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 
 	h4 {
@@ -258,7 +262,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 		}
 
 		h4 {
@@ -268,6 +272,11 @@ input, select, textarea {
 		h5 {
 			font-size: 0.675rem;
 		}
+		p.sideP{color: #FFF;}
+		h3.sideP{color: #af8fe6;}
+		span.sideP{color: #FFF;}
+		a.sideP{color: #fff}
+
 
 	}
 
@@ -1577,6 +1586,7 @@ input, select, textarea {
 							padding-top: 2.5rem;
 						}
 
+						
 		}
 
 		@media screen and (max-width: 480px) {
