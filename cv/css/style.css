@@ -924,5 +924,10 @@ header {
   .nav-right {
     display: none;
   }
+
+.case-study  .case-image.Myphoto{
+  margin-top:30px;
+}
+
 }
 
