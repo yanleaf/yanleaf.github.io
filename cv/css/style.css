@@ -655,8 +655,7 @@ main {
 .footer {
   background: #000;
   color: #fff;
-  padding: 60px 20px 30px;
-  margin-top: 80px;
+  padding: 60px 20px 30px;  
   border-top: 1px solid #222;
 }
 
@@ -926,3 +925,4 @@ header {
     display: none;
   }
 }
+
