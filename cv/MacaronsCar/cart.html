@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Charles 查爾斯馬卡龍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>    
+  <div class="page">    
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">        
+        <img src="images/logo.png" alt="logo">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="story.html">Story</a>
+        <div class="nav-actions">
+          <!--<button class="btn-outline">Sign in</button>-->
+          <div class="bt-icon"><a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></div>
+          <div class="bt-icon"><a href="#"><span class="material-symbols-outlined">person</span></a></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="cart-page">
+
+      <h1 class="cart-title">購物車</h1>
+
+      <div class="cart-wrapper">
+
+        <!-- 左側：購物車項目 -->
+        <div class="cart-items">
+
+          <div class="cart-item">
+            <img src="images/m1-1.jpg" class="cart-img">
+
+            <div class="cart-info">
+              <h2 class="cart-item-title">櫻桃口味馬卡龍｜期間限定</h2>
+              <p class="cart-item-option">規格：六入禮盒</p>
+              <p class="cart-item-option">取貨方式：宅配</p>
+
+              <div class="cart-qty">
+                <button class="qty-btn">-</button>
+                <input type="text" value="1">
+                <button class="qty-btn">+</button>
+              </div>
+
+              <p class="cart-price">NT$ 680</p>
+            </div>
+
+            <button class="cart-remove">✕</button>
+          </div>
+
+          <div class="cart-line"></div>
+
+          <!-- 再多商品也可複製 cart-item -->
+        </div>
+
+        <!-- 右側：結帳資訊 -->
+        <aside class="cart-summary">
+          <h3>訂單摘要</h3>
+
+          <div class="summary-row">
+            <span>商品小計</span>
+            <span>680 元</span>
+          </div>
+
+          <div class="summary-row">
+            <span>運費</span>
+            <span>150 元</span>
+          </div>
+
+          <div class="summary-total">
+            <span>總計</span>
+            <strong>830 元</strong>
+          </div>
+
+          <button class="checkout-btn">前往結帳</button>
+        </aside>
+
+      </div>
+    </section>
+
+
+  </div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- LOGO + COPYRIGHT -->
+        <div class="footer-col footer-brand">
+            <img src="images/logo.png" alt="Logo" class="footer-logo">
+            <p class="copyright">
+                Charles Patisserie © 2016<br>
+                by Eddie Web
+            </p>
+        </div>
+
+        <!-- STORES -->
+        <div class="footer-col footer-stores">
+            <h4>營業工作室</h4>
+            <p>新北市新莊區榮華路一段111號<br>0989 876 969</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-col footer-links">
+            <a href="#">聯絡我們</a>
+            <a href="#">FAQ</a>
+            <a href="#">隱私政策</a>
+            <a href="#">客戶服務條款</a>
+        </div>
+
+        <!-- SUBSCRIBE + SOCIAL -->
+        <div class="footer-col footer-subscribe">
+            <p class="subscribe-title">訂閱我們的最新資訊</p>
+
+            <div class="subscribe-box">
+                <input type="email" placeholder="輸入您的電子信箱">
+                <button>→</button>
+            </div>
+
+            <a href="mailto:charlespatisserie@gmail.com" class="email-link">
+                charlespatisserie@gmail.com
+            </a>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/charlesmacaron/"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-line fa-lg"></i></a>
+            </div>
+        </div>
+
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>

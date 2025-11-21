@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Charles 查爾斯馬卡龍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">        
+        <img src="images/logo.png" alt="logo">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="story.html">Story</a>
+        <div class="nav-actions">
+          <!--<button class="btn-outline">Sign in</button>-->
+          <div class="bt-icon"><a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></div>
+          <div class="bt-icon"><a href="#"><span class="material-symbols-outlined">person</span></a></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="product-detail">
+    <div class="product-gallery">
+        <div class="main-image">
+        <img id="mainImg" src="images/m1-1.jpg" alt="cake">
+        </div>
+
+        <div class="thumbs">
+        <img src="images/m1-1.jpg" onclick="changeImg(this.src)">
+        <img src="images/m1-2.jpg" onclick="changeImg(this.src)">
+        <img src="images/m1-3.jpg" onclick="changeImg(this.src)">
+        </div>
+    </div>
+
+    <div class="product-info">
+        <h1 class="product-title">櫻桃口味馬卡龍｜期間限定</h1>
+        <p class="product-subtitle">訂購天數需5個工作天，為維持最佳風味，建議冷凍保存。</p>
+
+        <div class="product-sku">
+        <p>內容：進口櫻桃果泥搭配法芙娜白巧克力</p>
+        </div>
+
+        <div class="product-options">
+        <label>選擇規格</label>
+        <select>
+            <option>六入禮盒</option>
+            <option>十二入禮盒</option>
+        </select>
+
+        <label>訂購數量</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+
+        <label>取貨方式</label>
+        <select>
+            <option>門市自取</option>
+            <option>宅配</option>
+        </select>
+
+        <label>選擇日期</label>
+        <input type="date">
+        </div>
+
+        <div class="product-price">
+        <p>商品金額：<span>680 元</span></p>
+        <div class="total">金額總計：<strong>680 元</strong></div>
+        </div>
+
+        <div class="product-actions">
+        <button class="btn-primary">立即購買</button>
+        <button class="cart-btn">加入購物車</button>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Tabs -->
+    <section class="product-tabs">
+    <div class="tabs-nav">
+        <button class="active" onclick="showTab(0)">商品介紹</button>
+        <button onclick="showTab(1)">配送說明</button>
+        <button onclick="showTab(2)">常見問題</button>
+    </div>
+
+    <div class="tabs-content">
+        <div class="tab active">
+        <p>這裡放商品介紹內容，可加入圖片與段落。</p>
+        </div>
+
+        <div class="tab">
+        <p>冷藏配送 / 宅配需提前預約。</p>
+        </div>
+
+        <div class="tab">
+        <p>Q：是否可提前一天出貨？<br>A：視蛋糕種類而定。</p>
+        </div>
+    </div>
+    </section>
+
+  </div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- LOGO + COPYRIGHT -->
+        <div class="footer-col footer-brand">
+            <img src="images/logo.png" alt="Logo" class="footer-logo">
+            <p class="copyright">
+                Charles Patisserie © 2016<br>
+                by Eddie Web
+            </p>
+        </div>
+
+        <!-- STORES -->
+        <div class="footer-col footer-stores">
+            <h4>營業工作室</h4>
+            <p>新北市新莊區榮華路一段111號<br>0989 876 969</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-col footer-links">
+            <a href="#">聯絡我們</a>
+            <a href="#">FAQ</a>
+            <a href="#">隱私政策</a>
+            <a href="#">客戶服務條款</a>
+        </div>
+
+        <!-- SUBSCRIBE + SOCIAL -->
+        <div class="footer-col footer-subscribe">
+            <p class="subscribe-title">訂閱我們的最新資訊</p>
+
+            <div class="subscribe-box">
+                <input type="email" placeholder="輸入您的電子信箱">
+                <button>→</button>
+            </div>
+
+            <a href="mailto:charlespatisserie@gmail.com" class="email-link">
+                charlespatisserie@gmail.com
+            </a>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/charlesmacaron/"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-line fa-lg"></i></a>
+            </div>
+        </div>
+
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>

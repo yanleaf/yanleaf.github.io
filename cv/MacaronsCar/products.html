@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Charles 查爾斯馬卡龍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">        
+        <img src="images/logo.png" alt="logo">
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#" class="active">Products</a>
+        <a href="story.html">Story</a>
+        <div class="nav-actions">
+          <!--<button class="btn-outline">Sign in</button>-->
+          <div class="bt-icon"><a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></div>
+          <div class="bt-icon"><a href="#"><span class="material-symbols-outlined">person</span></a></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Flavour Slider -->
+    <div class="flavour-section">
+        <div class="section-title-row">
+        <div>
+            <div class="section-title">所有產品</div>
+            <div class="section-sub">Products</div>
+        </div>
+    </div>
+
+
+        <!-- Grid 模式（預設 OFF）-->
+        <div class="flavour-grid-wrapper" id="gridMode" style="display:block;">
+            <div class="flavour-grid" id="gridTrack">
+                <!-- 卡片1 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>                    
+                        <div class="flavour-img-wrap">
+                            <a href="detail.html">
+                                <img src="images/m1.png" alt="櫻桃巧克力" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">櫻桃巧克力</div>
+                        <div class="flavour-note">Cherry with White Chocolate</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片2 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m2.png" alt="百香果" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">百香果</div>
+                        <div class="flavour-note">Passion Fruit with Milk Chocolate</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片3 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m3.png" alt="英式伯爵茶" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">英式伯爵茶</div>
+                        <div class="flavour-note">Earl Grey Tea with Milk Chocolate</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片4 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag special">Special</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m4.png" alt="黃金榛果" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">黃金榛果</div>
+                        <div class="flavour-note">Hazelnut praline and praline Crisp</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片5 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag special">Special</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m5.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">新年限定-香檳</div>
+                        <div class="flavour-note">Champagne</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 70</span>                        
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片6 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m6.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">開心果</div>
+                        <div class="flavour-note">Pistachio with White Chocolate</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片7 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m7.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">檸檬百里香</div>
+                        <div class="flavour-note">Lemon with Thyme</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片8 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m8.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">經典玫瑰</div>
+                        <div class="flavour-note">Rose</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片9 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m9.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">海鹽焦糖</div>
+                        <div class="flavour-note">Sea Salt Caramel</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片10 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m10.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">聖誕組合</div>
+                        <div class="flavour-note">Christmas Macaroons</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片11 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m11.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">巧克力覆盆莓</div>
+                        <div class="flavour-note">Chocolate Raspberry</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- 卡片11 -->
+                <article class="flavour-card">
+                    <div class="card-shadow-holder">
+                        <div class="flavour-tag">classic</div>
+                        <div class="flavour-img-wrap">
+                            <a href="#">
+                                <img src="images/m12.png" alt="Strawberry macaron" />
+                            </a>                        
+                        </div>
+                        <div class="flavour-name">橙香優格</div>
+                        <div class="flavour-note">Mandarin Orange with Yogurt</div>
+                        <div class="flavour-meta">
+                            <span class="flavour-price">$NT 60</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Features -->
+    <div class="section-title-row">
+      <div>
+        <div class="section-title">禮盒組合</div>
+        <div class="section-sub">Macaron gift box</div>
+      </div>
+    </div>
+    <section class="features">
+      <div class="feature-card six">
+        <img src="images/six.png" alt="">
+        <div class="feature-pill">Handmade daily</div>
+        <div class="feature-title">經典六入裝禮盒</div>
+        <p>
+          六款人氣口味一次擁有，以均衡香氣與細緻層次打造最經典的品嚐組合。
+        </p>
+      </div>
+      <div class="feature-card twelve">
+        <img src="images/twelve.png" alt="">
+        <div class="feature-pill">Less sugar</div>
+        <div class="feature-title">豪華十二入裝禮盒</div>
+        <p>
+          精選十二款主題風味，以優雅、均衡與層次為理念打造的高端禮盒。
+        </p>
+      </div>
+    </section>
+
+
+  </div>
+  <footer class="site-footer">
+    <div class="footer-container">
+
+        <!-- LOGO + COPYRIGHT -->
+        <div class="footer-col footer-brand">
+            <img src="images/logo.png" alt="Logo" class="footer-logo">
+            <p class="copyright">
+                Charles Patisserie © 2016<br>
+                by Eddie Web
+            </p>
+        </div>
+
+        <!-- STORES -->
+        <div class="footer-col footer-stores">
+            <h4>營業工作室</h4>
+            <p>新北市新莊區榮華路一段111號<br>0989 876 969</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-col footer-links">
+            <a href="#">聯絡我們</a>
+            <a href="#">FAQ</a>
+            <a href="#">隱私政策</a>
+            <a href="#">客戶服務條款</a>
+        </div>
+
+        <!-- SUBSCRIBE + SOCIAL -->
+        <div class="footer-col footer-subscribe">
+            <p class="subscribe-title">訂閱我們的最新資訊</p>
+
+            <div class="subscribe-box">
+                <input type="email" placeholder="輸入您的電子信箱">
+                <button>→</button>
+            </div>
+
+            <a href="mailto:charlespatisserie@gmail.com" class="email-link">
+                charlespatisserie@gmail.com
+            </a>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com/charlesmacaron/"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fab fa-line fa-lg"></i></a>
+            </div>
+        </div>
+
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
