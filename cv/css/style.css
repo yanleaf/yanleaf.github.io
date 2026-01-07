@@ -45,59 +45,6 @@ a:hover {
 }
 
 /* -------------------------------------
-   Header / Navigation
-------------------------------------- */
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1015;
-  background: rgba(0, 0, 0, 0.9);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #222;
-}
-
-.nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-left {
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 0.95rem;
-}
-
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-size: 0.9rem;
-}
-
-.nav-right a {
-  color: var(--fg-muted);
-}
-
-.nav-right a:hover {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-/* 超過 1600px 時左邊貼齊 */
-@media (min-width: 1600px) {
-  .nav {
-    padding-left: 0px;
-  }
-}
-
-/* -------------------------------------
    Hero Section
 ------------------------------------- */
 main {
@@ -333,7 +280,7 @@ main {
 
 /* ✅ 桌機（≥1200px）：2～3 欄排列 */
 .gallery-grid {
-  display: grid;
+  
   grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   gap: 40px;
   justify-items: stretch;
@@ -655,7 +602,8 @@ main {
 .footer {
   background: #000;
   color: #fff;
-  padding: 60px 20px 30px;  
+  padding: 60px 20px 30px;
+  margin-top: 80px;
   border-top: 1px solid #222;
 }
 
@@ -924,10 +872,8 @@ header {
   .nav-right {
     display: none;
   }
-
-.case-study  .case-image.Myphoto{
-  margin-top:30px;
 }
-
-}
-
+video {
+    width: 100%;
+    border-radius: 20px;
+  }
