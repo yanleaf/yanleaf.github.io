@@ -877,3 +877,8 @@ video {
     width: 100%;
     border-radius: 20px;
   }
+
+iframe {
+    width: 100%;
+    border-radius: 20px;
+  }
