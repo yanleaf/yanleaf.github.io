@@ -802,6 +802,7 @@ header {
   justify-content: space-between;
   cursor: pointer;
   z-index: 1200;
+  margin-left: auto;
 }
 
 .nav-toggle span {
